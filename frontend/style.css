@@ -1,0 +1,135 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+    font-family: 'outfit';
+    src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'young serif';
+    src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.frontEnd{
+    margin-top: 50px;
+}
+.containerText{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h1{
+    font-family: Young Serif;
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+ h3{
+    margin: 15px auto;
+    font-family: 'outfit';
+    font-weight: 400;
+ }
+
+.container{
+    width: 700px;
+    margin: auto;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.containerImg{
+ width: 90%;
+ margin: auto;
+}
+img{
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+.container p{
+    font-family: 'outfit';
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.preparation{
+    width: 90%;
+    margin: auto;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+.prepHead{
+    padding: 15px;
+}
+.prepHead h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+.list{
+    font-family: 'outfit';
+    color: hsl(30, 10%, 34%);;
+}
+.list li{
+margin: 10px auto;
+font-weight: 300;
+font-size: 13px;
+}
+span{
+    font-weight: 700;
+}
+
+.ingredients{
+    width: 90%;
+    margin: auto;
+}
+
+.ingredients h2{
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients li{
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions{
+    width: 90%;
+    margin: auto;
+}
+.instructions h2{
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li{
+    font-size: 13px;
+}
+
+.nutrition{
+    width: 90%;
+    margin: auto;
+}
+
+.nutrition h2{
+    font-weight: 800;
+    color: hsl(14, 45%, 36%);
+}
+table{
+    width: 100%;
+    font-family: 'outfit';
+    border-spacing: 0cap;
+
+}
+td{
+    border-bottom: 1px solid #e3ddd7;
+    padding: 10px 15px;
+
+}
+.nutrition span{
+    color: #854632;
+}
