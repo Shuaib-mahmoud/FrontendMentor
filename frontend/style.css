@@ -133,3 +133,48 @@ td{
 .nutrition span{
     color: #854632;
 }
+
+@media screen and (max-width:992px){
+   
+    .container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px){
+   
+    .container{
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:600px){
+   
+    .container{
+        width: 80%;
+        margin: auto;
+        border-radius: 3px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    h1{
+        font-family: Young Serif;
+        font-weight: 400;
+        font-size: 22px;   
+    }
+    p{
+        font-size: 12px;
+    }
+    li{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    table{
+        font-size:12px ;
+    }
+}
